@@ -26,3 +26,4 @@ export function calculateRiskRating(req, res) {
     res.json({risk_rating: Math.min(risk_rating, 5)}); // cap risk rating to 5
 }
 
+module.exports = calculateRiskRating;
