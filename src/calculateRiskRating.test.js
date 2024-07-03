@@ -48,4 +48,6 @@ describe('calculateRiskRating', () => {
     calculateRiskRating(req, res);
     expect(res.json).toHaveBeenCalled();
   });
+
+  
 });
